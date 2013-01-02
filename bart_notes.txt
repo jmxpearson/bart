@@ -1,0 +1,42 @@
+to add:
+mark events in plexon
+make sure typing like this doesn't register a choice!
+
+priorities:
+
+- read in files
+- NIDAQ / plexon mark events
+- fine-tune hazard rates, timing (higher mean, lower jitter), growth rate
+
+animated inflation
+specify block sequence / trial outcomes from file
+hazard rate from file
+mouse input
+NIDAQ events
+"go" signal = okay to click now 
+click visual feedback; options in text on left, right
+
+to save/import
+hazard rate
+random number result
+iti/inspection period
+rate of balloon growth
+initial radius of balloon
+scaling of radius with hazard
+scaling of points with hazard
+rate of expansion for animation
+
+to save each trial:
+how far into run we are
+rt
+choice (stay or go)
+result (safe or popped)
+points (possible on this run)
+block type (type of hazard rate)
+points (banked)
+
+graphics
+points available in center of balloon -- MAKE IT CENTERED
+pop happens at random point in interval
+bank graphics
+visual feedback onclick
