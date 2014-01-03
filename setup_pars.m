@@ -28,7 +28,7 @@ end
 
 %set up trial type breakdown
 type_blk=[12 12 12 6]; %number of each trial in pseudo-block
-ctrl_blk=[8 8 8 0 ; 4 4 4 6]; %pseudo-block control breakdown: bottom is controls
+ctrl_blk=[9 9 9 0 ; 3 3 3 6]; %pseudo-block control breakdown: bottom is controls
 runlen=[12 8 4 8]; %maximum number of pumps on each balloon type; last type is no reward
 blk=[]; %make pseudo-block
 ctrl=[];
