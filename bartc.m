@@ -135,7 +135,7 @@ while continue_running
     state.pushed=888; %i.e., nothing of importance
     trial_start_time=GetSecs;
     data(trialnum).trial_start_time=trial_start_time;
-    mark_event('trial_start',plx,1);
+    mark_event('trial_start',plx,1,ni);
     
     %paint screen
     if ~is_control&&(trial_type~=4)

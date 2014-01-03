@@ -7,6 +7,7 @@
 
 try
     plx=PL_InitClient(0);
+    ni =[];
 catch q
     plx=0;
     

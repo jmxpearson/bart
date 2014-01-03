@@ -27,7 +27,6 @@ if plx
     end
 elseif ni
     PL_DOPulseBit(ni, 1, 5); %send a 5ms TTL pulse through the NIDAQ
-    disp('BAM!')
 end
 
 eventtime=GetSecs-data(end).trial_start_time;
